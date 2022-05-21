@@ -23,6 +23,6 @@ fetch("/objetArray.json")
 
 
 //se le suma iva a cada producto
-for (const elements of stock){
-    elements.sumarIva();
+for (const producto of stock){
+    producto.sumarIva();
 }

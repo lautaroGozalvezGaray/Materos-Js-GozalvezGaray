@@ -102,85 +102,85 @@ btn1.addEventListener('click', (e) => {
 
 let btn2 = document.getElementById("btn2");
 btn2.addEventListener('click', (e) => {
-    btnProduct(producto=producto2);
+    btnProduct(producto=stock[1]);
     AlertAddBuy();
 })
 
 let btn3 = document.getElementById("btn3");
 btn3.addEventListener('click', (e) => {
-    btnProduct(producto=producto3);
+    btnProduct(producto=stock[2]);
     AlertAddBuy();
 })
 
 let btn4 = document.getElementById("btn4");
 btn4.addEventListener('click', (e) => {
-    btnProduct(producto=producto4);
+    btnProduct(producto=stock[3]);
     AlertAddBuy();
 })
 
 let btn5 = document.getElementById("btn5");
 btn5.addEventListener('click', (e) => {
-    btnProduct(producto=producto5);
+    btnProduct(producto=stock[4]);
     AlertAddBuy();
 })
 
 let btn6 = document.getElementById("btn6");
 btn6.addEventListener('click', (e) => {
-    btnProduct(producto=producto6);
+    btnProduct(producto=stock[5]);
     AlertAddBuy();
 })
 
 let btn7 = document.getElementById("btn7");
 btn7.addEventListener('click', (e) => {
-    btnProduct(producto=producto7);
+    btnProduct(producto=stock[6]);
     AlertAddBuy();
 })
 
 let btn8 = document.getElementById("btn8");
 btn8.addEventListener('click', (e) => {
-    btnProduct(producto=producto8);
+    btnProduct(producto=stock[7]);
     AlertAddBuy();
 })
 
 let btn9 = document.getElementById("btn9");
 btn9.addEventListener('click', (e) => {
-    btnProduct(producto=producto9);
+    btnProduct(producto=stock[8]);
     AlertAddBuy();
 })
 
 let btn10 = document.getElementById("btn10");
 btn10.addEventListener('click', (e) => {
-    btnProduct(producto=producto10);
+    btnProduct(producto=stock[9]);
     AlertAddBuy();
 })
 
 let btn11 = document.getElementById("btn11");
 btn11.addEventListener('click', (e) => {
-    btnProduct(producto=producto11);
+    btnProduct(producto=stock[10]);
     AlertAddBuy();
 })
 
 let btn12 = document.getElementById("btn12");
 btn12.addEventListener('click', (e) => {
-    btnProduct(producto=producto12);
+    btnProduct(producto=stock[11]);
     AlertAddBuy();
 })
 
 let btn13 = document.getElementById("btn13");
 btn13.addEventListener('click', (e) => {
-    btnProduct(producto=producto13);
+    btnProduct(producto=stock[12]);
     AlertAddBuy();
 })
 
 let btn14 = document.getElementById("btn14");
 btn14.addEventListener('click', (e) => {
-    btnProduct(producto=producto14);
+    btnProduct(producto=stock[13]);
     AlertAddBuy();
 })
 
 let btn15 = document.getElementById("btn15");
 btn15.addEventListener('click', (e) => {
-    btnProduct(producto=producto15);
+    btnProduct(producto=stock[14]);
     AlertAddBuy();
 })
 
