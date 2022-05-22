@@ -52,6 +52,12 @@ const clearBuy = () => {
     }
 }
 
+//FUNCION CAMBIAR COLOR DEL BOTON DEL CARRITO SI SE LE AGREGA ELEMENTOS.
+let btnBuy = document.getElementById("btnBuy");
+const changeColor = () =>{
+    btnBuy.className = "btnBuy btn btn-danger";
+}
+
 
 //BOTON CALCULAR TOTAL
 
@@ -67,6 +73,10 @@ let btnFinalizar = document.getElementById("btnFinalizar");
 btnFinalizar.setAttribute("disabled","false");//el Boton finalizar esta desactivado hasta que se calcule el total
 btnFinalizar.addEventListener("click", (e) => {
     AlertEndBuy();
+    clearBuy();
+    btnBuy.className="btnBuy btn btn-success";
+    btnFinalizar.setAttribute("disabled","false");
+
     
 })
 
@@ -77,6 +87,7 @@ btnborrar.addEventListener("click", (e) => {
     clearBuy();
     alertClearBuy()
     btnFinalizar.setAttribute("disabled","false");//el Boton finalizar esta desactivado hasta que se calcule el total
+    btnBuy.className="btnBuy btn btn-success";
 }) 
 
 //BOTONES DE PRODUCTOS
@@ -98,89 +109,107 @@ let btn1 = document.getElementById("btn1");
 btn1.addEventListener('click', (e) => {
     btnProduct(producto=stock[0]);
     AlertAddBuy();
+    changeColor();
 })
 
 let btn2 = document.getElementById("btn2");
 btn2.addEventListener('click', (e) => {
     btnProduct(producto=stock[1]);
     AlertAddBuy();
+    changeColor();
 })
 
 let btn3 = document.getElementById("btn3");
 btn3.addEventListener('click', (e) => {
     btnProduct(producto=stock[2]);
     AlertAddBuy();
+    changeColor();
 })
 
 let btn4 = document.getElementById("btn4");
 btn4.addEventListener('click', (e) => {
     btnProduct(producto=stock[3]);
     AlertAddBuy();
+    changeColor();
 })
 
 let btn5 = document.getElementById("btn5");
 btn5.addEventListener('click', (e) => {
     btnProduct(producto=stock[4]);
     AlertAddBuy();
+    changeColor();
 })
 
 let btn6 = document.getElementById("btn6");
 btn6.addEventListener('click', (e) => {
     btnProduct(producto=stock[5]);
     AlertAddBuy();
+    changeColor();
 })
 
 let btn7 = document.getElementById("btn7");
 btn7.addEventListener('click', (e) => {
     btnProduct(producto=stock[6]);
     AlertAddBuy();
+    changeColor();
 })
 
 let btn8 = document.getElementById("btn8");
 btn8.addEventListener('click', (e) => {
     btnProduct(producto=stock[7]);
     AlertAddBuy();
+    changeColor();
 })
 
 let btn9 = document.getElementById("btn9");
 btn9.addEventListener('click', (e) => {
     btnProduct(producto=stock[8]);
     AlertAddBuy();
+    changeColor();
 })
 
 let btn10 = document.getElementById("btn10");
 btn10.addEventListener('click', (e) => {
     btnProduct(producto=stock[9]);
     AlertAddBuy();
+    changeColor();
 })
 
 let btn11 = document.getElementById("btn11");
 btn11.addEventListener('click', (e) => {
     btnProduct(producto=stock[10]);
     AlertAddBuy();
+    changeColor();
 })
 
 let btn12 = document.getElementById("btn12");
 btn12.addEventListener('click', (e) => {
     btnProduct(producto=stock[11]);
     AlertAddBuy();
+    changeColor();
 })
 
 let btn13 = document.getElementById("btn13");
 btn13.addEventListener('click', (e) => {
     btnProduct(producto=stock[12]);
     AlertAddBuy();
+    changeColor();
 })
 
 let btn14 = document.getElementById("btn14");
 btn14.addEventListener('click', (e) => {
     btnProduct(producto=stock[13]);
     AlertAddBuy();
+    changeColor();
 })
 
 let btn15 = document.getElementById("btn15");
 btn15.addEventListener('click', (e) => {
     btnProduct(producto=stock[14]);
     AlertAddBuy();
+    changeColor();
 })
+
+
+
 

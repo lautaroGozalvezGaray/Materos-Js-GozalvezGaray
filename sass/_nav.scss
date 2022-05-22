@@ -22,14 +22,14 @@ header {
     li {
       margin-left: 5px;
     }
-    a:hover {
+    .ulBtn a{
+      margin-left: 10px;
+      margin-right: 5px;
+    }
+    .navBtn:hover {
       background-color: rgb(220, 217, 217);
       text-decoration-line: underline;
       border-radius: 5px;
-    }
-    .buyIcon {
-      margin-left: 8px;
-      margin-right: 5px;
     }
   }
 }

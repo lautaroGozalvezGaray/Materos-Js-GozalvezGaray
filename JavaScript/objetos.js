@@ -1,7 +1,7 @@
 class Productos{
     constructor(categoria, precio, tipo){
         this.categoria=categoria;
-        this.precio=parseInt(precio);
+        this.precio=parseFloat(precio);
         this.tipo=tipo;
     }
     sumarIva(){
@@ -16,13 +16,14 @@ fetch("/objetArray.json")
         return response.json();
     }).then((objet) => {
         objet.forEach(element => {
-            stock.push(new Productos(element.categoria, element.precio, element.tipo))
+            stock.push(new Productos(element.categoria, element.precio, element.tipo));
         });
-        
+        //se le suma iva a cada producto
+        for (const producto of stock){
+            producto.sumarIva();
+        }
 })
 
 
-//se le suma iva a cada producto
-for (const producto of stock){
-    producto.sumarIva();
-}
+
+

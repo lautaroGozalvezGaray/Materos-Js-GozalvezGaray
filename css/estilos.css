@@ -72,13 +72,13 @@ header {
       font-size: 1.8rem; }
   header .navBar2 li {
     margin-left: 5px; }
-  header .navBar2 a:hover {
+  header .navBar2 .ulBtn a {
+    margin-left: 10px;
+    margin-right: 5px; }
+  header .navBar2 .navBtn:hover {
     background-color: #dcd9d9;
     text-decoration-line: underline;
     border-radius: 5px; }
-  header .navBar2 .buyIcon {
-    margin-left: 8px;
-    margin-right: 5px; }
 
 @media (min-width: 500px) and (max-width: 1023px) {
   .navBar2 li {
@@ -263,7 +263,9 @@ header {
       .main .buscador input label {
         font-family: "Open Sans", sans-serif; }
     .main .buscador .filter {
-      text-align: center; }
+      text-align: center;
+      margin-top: 0.8rem;
+      width: 20rem; }
   .main .titleEachProduct h2 {
     text-align: center;
     font-family: "Open Sans", sans-serif;
