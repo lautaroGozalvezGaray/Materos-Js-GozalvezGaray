@@ -14,7 +14,7 @@ function alertClearBuy(){
         toast: true,
         position: 'top-end',
         showConfirmButton: false,
-        timer: 2000,
+        timer: 1000,
         timerProgressBar: true,
         didOpen: (toast) => {
           toast.addEventListener('mouseenter', Swal.stopTimer)
@@ -33,8 +33,8 @@ function AlertAddBuy(){
         text: "Se agregó el producto al carrito",
         duration: 3000,
         offset: {
-            x: 50,
-            y: 30
+            x: 0,
+            y: 120
         }, 
         className: "info",
         style: {
